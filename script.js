@@ -242,16 +242,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function populateBoard() {
       const images = [
-          "output_svgs/image_5450.svg", "output_svgs/image_11641.svg", "output_svgs/image_18337.svg",
-          "output_svgs/image_24493.svg", "output_svgs/image_31201.svg", "output_svgs/image_37357.svg",
-          "output_svgs/image_44065.svg", "output_svgs/image_50221.svg", "output_svgs/image_56929.svg",
-          "output_svgs/image_63085.svg", "output_svgs/image_69793.svg", "output_svgs/image_75949.svg",
-          "output_svgs/image_82645.svg", "output_svgs/image_89353.svg", "output_svgs/image_95509.svg",
-          "output_svgs/image_102217.svg", "output_svgs/image_108373.svg", "output_svgs/image_115081.svg",
-          "output_svgs/image_121237.svg", "output_svgs/image_127381.svg", "output_svgs/image_134077.svg",
-          "output_svgs/image_140221.svg", "output_svgs/image_146917.svg", "output_svgs/image_153061.svg",
-          "output_svgs/image_159757.svg"
-      ];
+    "output_svgs/1 (1).svg", "output_svgs/1 (2).svg", "output_svgs/1 (3).svg",
+    "output_svgs/1 (4).svg", "output_svgs/1 (5).svg", "output_svgs/1 (6).svg",
+    "output_svgs/1 (7).svg", "output_svgs/1 (8).svg", "output_svgs/1 (9).svg",
+    "output_svgs/1 (10).svg", "output_svgs/1 (11).svg", "output_svgs/1 (12).svg",
+    "output_svgs/1 (13).svg", "output_svgs/1 (14).svg", "output_svgs/1 (15).svg",
+    "output_svgs/1 (16).svg", "output_svgs/1 (17).svg", "output_svgs/1 (18).svg",
+    "output_svgs/1 (19).svg", "output_svgs/1 (20).svg", "output_svgs/1 (21).svg",
+    "output_svgs/1 (22).svg", "output_svgs/1 (23).svg", "output_svgs/1 (24).svg",
+    "output_svgs/1 (25).svg"
+];
+
 
       images.forEach(image => {
           const cell = document.createElement("div");
